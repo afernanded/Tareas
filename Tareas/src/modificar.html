@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicios Tasks</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+</head>
+<body>
+<div id="cabecera-propia" pagina="modificar"></div>
+<br>
+<h1>Modificar Tareas</h1>
+<br>
+<div id="contenedor">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Título
+                <input type="text" class="card-title" value="">
+            </h5>
+            <p class="card-text">Descripción</p>
+            <textarea class="form-control" id="descripcion" rows="5"></textarea>
+        </div>
+        <div class="card-footer">
+            <label class="col-form-label" for="estado" >Estado:</label>
+            <select class="col-sm-10" id="estado">
+                <option value="pendiente">pendiente</option>
+                <option value="haciendo">haciendo</option>
+                <option value="completada">completada</option>
+            </select>
+            <label class="col-form-label" for="fechayhora" >Fecha y hora:</label>
+            <input type="datetime" class="col-sm-9" id="fechayhora" value="">
+            <button type="submit" id="botonActualizar" class="btn btn-primary btn-lg btn-block">Actualizar</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

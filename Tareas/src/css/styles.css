@@ -1,0 +1,24 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+#nuevaTarea {
+    margin: auto;
+    display: block;
+    width: 31%;
+}
+
+#contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#crear {
+    width: 550px;
+}
+
+
